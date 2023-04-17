@@ -12,6 +12,9 @@ app.use(cookie());
 const authenticationRouter=require("./routers/authentication")
 app.use("/authentication",authenticationRouter);
 
+const hostelRouter=require("./routers/Hostelsearch")
+app.use("/hostel",hostelRouter);
+
 
 // app.get('/',(req,res)=>{
 //     res.send("hello");

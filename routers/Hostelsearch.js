@@ -7,5 +7,5 @@ router.get('/gethostel',controller.gethostel);
 router.get('/hosteldetails',controller.gethosteldetails);
 router.post('/hostelinfo',controller.posthostelinfo);
 
-
+//added more routes
 module.exports=router;

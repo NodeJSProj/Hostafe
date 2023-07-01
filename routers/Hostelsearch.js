@@ -9,5 +9,6 @@ router.post('/hostelinfo',controller.posthostelinfo);
 
 //changes made
 
+
 //added more changes
 module.exports=router;

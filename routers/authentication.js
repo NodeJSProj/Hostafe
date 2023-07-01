@@ -8,6 +8,6 @@ router.get('/logout',controller.logout);
 router.post('/login',controller.login);
 router.post('/signup',controller.signup);
 
-
+//chnages in auth route
 
 module.exports=router;
